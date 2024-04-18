@@ -1,0 +1,15 @@
+import numpy as np
+
+# Definir una matriz de ejemplo
+matriz = np.array([[1, 2, 3],
+                   [4, 5, 6],
+                   [7, 8, 9]])
+
+# Calcular los valores propios y vectores propios
+valores_propios, vectores_propios = np.linalg.eig(matriz)
+
+# Imprimir los valores propios y vectores propios
+print("Valores Propios:")
+print(valores_propios)
+print("\nVectores Propios:")
+print(vectores_propios)
